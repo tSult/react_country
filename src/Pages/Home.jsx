@@ -1,10 +1,13 @@
 import React from 'react'
+import HeroSection from '../Component/UI/HeroSection'
+import About from './About'
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    <HeroSection/>
+    <About/>
+    </>
   )
 }
 
